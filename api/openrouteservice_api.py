@@ -26,7 +26,7 @@ def get_distance_between_two_coordinates(start: Coordinate, end: Coordinate) -> 
 
     params = {
         'api_key': API_KEY_2,
-        'start': f"{start.getlon()},{start.get_lat()}",
+        'start': f"{start.get_lon()},{start.get_lat()}",
         'end': f"{end.get_lon()},{end.get_lat()}"
     }
 
