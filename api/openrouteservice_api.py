@@ -40,8 +40,9 @@ def get_distance_between_two_coordinates(start: Coordinate, end: Coordinate) -> 
         
         # Extract the distance from the response (in meters)
         distance = data['features'][0]['properties']['segments'][0]['distance']
-        
-        # Print the distance
-        print(f"Distance: {distance / 1000} km")  # Convert meters to kilometers
+
+        # convert distance to kilometers
+        distance = distance / 1000
     else:
-        print("Failed to retrieve data", response.status_code)
+        distance = None
+    return distance
