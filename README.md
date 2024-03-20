@@ -19,7 +19,7 @@ Credit of $200-$300 for new users.
 
 #### Data Cleaning 
 - block + street (Done)
-- mrt dataset (name + coordinates + opening) (Anders)
+- mrt dataset (name + coordinates + opening) (Anders) ✅
 - shopping mall dataset (name + coordinates + opening) (Joseph)
 
 
