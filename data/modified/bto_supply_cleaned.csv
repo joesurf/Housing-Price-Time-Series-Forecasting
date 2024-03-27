@@ -3,7 +3,7 @@ Yishun,24-Nov-11,1Q 2015,834,,Info Plans,Acacia Breeze,Yishun Acacia Breeze
 Woodlands,22-May-14,2Q 2017,402,Brochure,Info Plans,Admiralty Flora,Woodlands Admiralty Flora
 Woodlands,26-Nov-13,3Q 2017,993,Brochure,Info Plans,Admiralty Grove,Woodlands Admiralty Grove
 Bukit Merah,05-Dec-23,59 months,904,Brochure,,Alexandra Peaks,Bukit Merah Alexandra Peaks
-Bukit Merah,30-Aug-22,2Q 2028,782,Brochure,,Alexandra Vale (PLH),Bukit Merah Alexandra Vale (PLH)
+Bukit Merah,30-Aug-22,2Q 2028,782,Brochure,,Alexandra Vale,Bukit Merah Alexandra Vale
 Bidadari,04-Feb-21,2Q 2024,353,Brochure,,Alkaff Breeze,Bidadari Alkaff Breeze
 Bidadari,17-Nov-15,2Q 2020,1258,Brochure,,Alkaff CourtView,Bidadari Alkaff CourtView
 Bidadari,17-Nov-15,4Q 2019,531,Brochure,,Alkaff LakeView,Bidadari Alkaff LakeView
@@ -51,7 +51,7 @@ Hougang,11-Feb-15,3Q 2018,718,Brochure,,Buangkok Tropica,Hougang Buangkok Tropic
 Hougang,05-Jan-10,1Q 2014,699,,Info Plans,Buangkok Vale,Hougang Buangkok Vale
 Hougang,17-Aug-16,4Q 2019,711,Brochure,,Buangkok Woods,Hougang Buangkok Woods
 Bukit Batok,22-Jan-14,4Q 2017,286,Brochure,Info Plans,Bukit Gombak Vista,Bukit Batok Bukit Gombak Vista
-Bukit Merah,27-May-22,1Q 2028,1669,Brochure,,Bukit Merah Ridge (PLH),Bukit Merah Bukit Merah Ridge (PLH)
+Bukit Merah,27-May-22,1Q 2028,1669,Brochure,,Bukit Merah Ridge,Bukit Merah Bukit Merah Ridge
 Sembawang,11-Feb-20,2Q 2024 – 3Q 2024,1467,Brochure,,Canberra Vista,Sembawang Canberra Vista
 Yishun,22-May-18,3Q 2021 – 4Q 2021,969,Brochure,,Casa Spring @ Yishun,Yishun Casa Spring @ Yishun
 Ang Mo Kio,30-Aug-22,2Q 2028,896,Brochure,,Central Weave @ AMK,Ang Mo Kio Central Weave @ AMK
@@ -102,8 +102,8 @@ Punggol,01-Dec-02,Dec-06,582,,,Edgedale Green,Punggol Edgedale Green
 Geylang,14-Nov-17,2Q 2022,742,Brochure,,Eunos Court,Geylang Eunos Court
 Bukit Panjang,28-Mar-12,4Q 2015,862,,Info Plans,Fajar Hills,Bukit Panjang Fajar Hills
 Bukit Panjang,24-Nov-11,4Q 2014,264,,Info Plans,Fajar Spring,Bukit Panjang Fajar Spring
-Kallang Whampoa,30-May-23,4Q 2027,569,Brochure,,Farrer Park Arena (PLH),Kallang Whampoa Farrer Park Arena (PLH)
-Kallang Whampoa,28-Feb-23,2Q 2028,1274,Brochure,,Farrer Park Fields (PLH),Kallang Whampoa Farrer Park Fields (PLH)
+Kallang Whampoa,30-May-23,4Q 2027,569,Brochure,,Farrer Park Arena,Kallang Whampoa Farrer Park Arena
+Kallang Whampoa,28-Feb-23,2Q 2028,1274,Brochure,,Farrer Park Fields,Kallang Whampoa Farrer Park Fields
 Bedok,21-Nov-12,4Q 2017 – 4Q 2018,1058,Brochure,Info Plans,Fengshan GreenVille,Bedok Fengshan GreenVille
 Yishun,26-Mar-14,4Q 2017,1294,Brochure,Info Plans,Fern Grove @ Yishun,Yishun Fern Grove @ Yishun
 Sengkang,13-Nov-18,1Q 2021,330,Brochure,,Fernvale Acres,Sengkang Fernvale Acres
@@ -135,9 +135,9 @@ Tengah,17-Nov-20,1Q 2024,789,Brochure,,Garden Terrace @ Tengah,Tengah Garden Ter
 Tengah,22-May-19,2Q 2023 – 3Q 2023,987,Brochure,,Garden Vale @ Tengah,Tengah Garden Vale @ Tengah
 Tengah,12-Nov-19,2Q 2023 – 3Q 2023,900,Brochure,,Garden Vines @ Tengah,Tengah Garden Vines @ Tengah
 Tengah,23-Nov-22,1Q 2027,2077,Brochure,,Garden Waterfront I & II @ Tengah,Tengah Garden Waterfront I & II @ Tengah
-Queenstown,27-May-22,1Q 2028,867,Brochure,,Ghim Moh Ascent (PLH),Queenstown Ghim Moh Ascent (PLH)
+Queenstown,27-May-22,1Q 2028,867,Brochure,,Ghim Moh Ascent,Queenstown Ghim Moh Ascent
 Queenstown,21-Nov-12,2Q 2017,1179,Brochure,Info Plans,Ghim Moh Edge,Queenstown Ghim Moh Edge
-Queenstown,23-Nov-22,1Q 2028,991,Brochure,,Ghim Moh Natura (PLH),Queenstown Ghim Moh Natura (PLH)
+Queenstown,23-Nov-22,1Q 2028,991,Brochure,,Ghim Moh Natura,Queenstown Ghim Moh Natura
 Tampines,14-Jul-11,1Q 2014,149,,Info Plans,Golden Carnation,Tampines Golden Carnation
 Bedok,24-Nov-11,4Q 2014,129,,Info Plans,Golden Cassia,Bedok Golden Cassia
 Toa Payoh,28-Mar-12,3Q 2015,188,,Info Plans,Golden Clover,Toa Payoh Golden Clover
@@ -154,7 +154,7 @@ Woodlands,27-Sep-12,2Q 2015,128,,,Golden Saffron,Woodlands Golden Saffron
 Geylang,31-Jul-12,4Q 2015,338,,Info Plans,Greentops @ Sims Place,Geylang Greentops @ Sims Place
 Yishun,17-Feb-22,4Q 2024,987,Brochure,,Grove Spring @ Yishun,Yishun Grove Spring @ Yishun
 Bukit Batok,04-Feb-21,2Q 2024,169,,,Harmony Village @ Bukit Batok,Bukit Batok Harmony Village @ Bukit Batok
-Bukit Merah,30-Aug-22,4Q 2028,869,Brochure,,Havelock Hillside (PLH),Bukit Merah Havelock Hillside (PLH)
+Bukit Merah,30-Aug-22,4Q 2028,869,Brochure,,Havelock Hillside,Bukit Merah Havelock Hillside
 Choa Chu Kang,17-Nov-21,3Q 2026,68,Brochure,,Heart of Yew Tee,Choa Chu Kang Heart of Yew Tee
 Hougang,24-Nov-11,1Q 2015,781,,Info Plans,Hougang Capeview,Hougang Hougang Capeview
 Hougang,11-Aug-21,1Q 2025,749,Brochure,,Hougang Citrine,Hougang Hougang Citrine
@@ -173,7 +173,7 @@ Jurong East,30-Aug-22,2Q 2028,562,Brochure,,Jurong East Breeze,Jurong East Juron
 Jurong West,28-Feb-23,3Q 2027,271,Brochure,,Jurong West Crystal,Jurong West Jurong West Crystal
 Jurong West,12-Feb-19,2Q 2022,599,Brochure,,Jurong West Jewel,Jurong West Jurong West Jewel
 Kallang Whampoa,12-Feb-19,3Q 2022,411,Brochure,,Kallang Breeze,Kallang Whampoa Kallang Breeze
-Kallang Whampoa,23-Nov-22,1Q 2028,477,Brochure,,Kallang Horizon (PLH),Kallang Whampoa Kallang Horizon (PLH)
+Kallang Whampoa,23-Nov-22,1Q 2028,477,Brochure,,Kallang Horizon,Kallang Whampoa Kallang Horizon
 Kallang Whampoa,22-Nov-16,4Q 2021,243,Brochure,,Kallang Residences,Kallang Whampoa Kallang Residences
 Woodlands,19-Jul-14,3Q 2017,104,Brochure,,Kampung Admiralty,Woodlands Kampung Admiralty
 Choa Chu Kang,31-Jul-12,1Q 2016,1130,,Info Plans,Keat Hong Axis,Choa Chu Kang Keat Hong Axis
@@ -192,7 +192,7 @@ Yishun,26-Sep-13,2Q 2017,310,Brochure,Info Plans,Khatib Court,Yishun Khatib Cou
 Toa Payoh,22-May-18,2Q 2022 – 3Q 2022,542,Brochure,,Kim Keat Beacon,Toa Payoh Kim Keat Beacon
 Toa Payoh,27-May-22,3Q 2027,385,Brochure,,Kim Keat Heights,Toa Payoh Kim Keat Heights
 Toa Payoh,11-Feb-20,2Q 2024,708,Brochure,,Kim Keat Ripples,Toa Payoh Kim Keat Ripples
-Kallang Whampoa,17-Feb-22,3Q 2027,398,Brochure,,King George’s Heights (PLH),Kallang Whampoa King George’s Heights (PLH)
+Kallang Whampoa,17-Feb-22,3Q 2027,398,Brochure,,King George’s Heights,Kallang Whampoa King George’s Heights
 Hougang,11-Aug-21,3Q 2026,586,Brochure,,Kovan Wellspring,Hougang Kovan Wellspring
 Jurong West,27-May-22,4Q 2026,1016,Brochure,,Lakeside View,Jurong West Lakeside View
 Choa Chu Kang,05-Jan-10,3Q 2013,592,,Info Plans,Limbang Green,Choa Chu Kang Limbang Green
@@ -275,7 +275,7 @@ Choa Chu Kang,04-Oct-23,39 / 48 months,1895,Brochure,,Rail Green I & II @ CCK,Ch
 Kallang Whampoa,04-Oct-23,52 months,739,Brochure,,Rajah Residences,Kallang Whampoa Rajah Residences
 Kallang Whampoa,28-Feb-23,2Q 2028,510,Brochure,,Rajah Summit,Kallang Whampoa Rajah Summit
 Sembawang,01-Apr-01,Cancelled,447,,,River Edge,Sembawang River Edge
-Central,17-Nov-21,2Q 2028,960,Brochure,,River Peaks I & II (PLH),Central River Peaks I & II (PLH)
+Central,17-Nov-21,2Q 2028,960,Brochure,,River Peaks I & II,Central River Peaks I & II
 Sengkang,30-Jun-10,1Q 2014,1120,,Info Plans,Rivervale Arc,Sengkang Rivervale Arc
 Sengkang,21-Nov-12,2Q 2016,884,Brochure,Info Plans,Rivervale Delta,Sengkang Rivervale Delta
 Sengkang,01-Apr-01,Apr-05,776,,,Rivervale Green,Sengkang Rivervale Green
@@ -372,8 +372,8 @@ Woodlands,27-Sep-12,2Q 2016,652,,Info Plans,TreeTrail @ Woodlands,Woodlands Tre
 Woodlands,11-Feb-10,4Q 2014,784,,Info Plans,Treegrove,Woodlands Treegrove
 Punggol,01-Mar-07,Mar-11,712,,,Treelodge,Punggol Treelodge
 Geylang,06-Feb-18,4Q 2021 – 1Q 2022,1193,Brochure,,Ubi Grove,Geylang Ubi Grove
-Queenstown,23-Nov-22,3Q 2029,1330,Brochure,,Ulu Pandan Banks (PLH),Queenstown Ulu Pandan Banks (PLH)
-Queenstown,28-Feb-23,2Q 2029,732,Brochure,,Ulu Pandan Glades (PLH),Queenstown Ulu Pandan Glades (PLH)
+Queenstown,23-Nov-22,3Q 2029,1330,Brochure,,Ulu Pandan Banks,Queenstown Ulu Pandan Banks
+Queenstown,28-Feb-23,2Q 2029,732,Brochure,,Ulu Pandan Glades,Queenstown Ulu Pandan Glades
 Queenstown,05-Dec-23,59 months,890,Brochure,,Ulu Pandan Vista,Queenstown Ulu Pandan Vista
 Woodlands,05-Dec-23,51 months,848,Brochure,,Urban Rise @ Woodlands,Woodlands Urban Rise @ Woodlands
 Woodlands,12-Aug-20,2Q 2026,1785,Brochure,,UrbanVille @ Woodlands,Woodlands UrbanVille @ Woodlands
