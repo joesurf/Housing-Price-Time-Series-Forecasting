@@ -44,6 +44,20 @@ Adds the SORA values associated with the HDB transaction record dates.
 - Identifies the MRT stations that are within a 1km radius from each HDB flat if the opening date of the MRT station is before the flat's transaction record date. For HDB flats that do not have any MRT stations within a 1km radius, the nearest MRT station is noted. Geometric distances between points are taken into account using `GeoPandas`.
 - Identifies the number of BTO flats that are launching within a 4km radius from the flat (the launch dates of the BTOs are compared with the flat's transaction record date - only launch dates that happen before the transaction record date are taken into account) and the supply of units associated with these BTOs.
 
+`malls2kmRadius.ipynb`
+
+- Identifies the malls that are within a 1km radius from each HDB flat if the opening date of the mall is before the flat's transaction record date. Geometric distances between points are taken into account using `geopy`.
+
+`distance2cbd.ipynb`
+
+- Calculates the distance from HDB to Central Business District area (Coordinate(lon=103.851784, lat=1.287953)). Geometric distances between points are taken into account using `geopy`. 
+
+`word_embedding.ipynb`
+
+- Combine name and distance information about POIs (mrt, sch, mall)
+- Convert to POI density vector using `spacy`
+
+
 ### Model Building
 
 Geographically Neural Network Weighted Regression (GNNWR)
