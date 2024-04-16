@@ -57,8 +57,19 @@ Adds the SORA values associated with the HDB transaction record dates.
 - Combine name and distance information about POIs (mrt, sch, mall)
 - Convert to POI density vector using `spacy`
 
+`pre_modelling.ipynb`
+
+
 
 ### Model Building
+
+Working dataset: https://drive.google.com/drive/folders/1LEXFn1MAb0m7xJCqPMAyjJMXiA7_Ep6d?usp=drive_link
+
+`xgboost_model.ipynb`
+
+- Train xgboost regressor on working dataset
+- Predict 2024 resale prices and evaluate performance
+
 
 Geographically Neural Network Weighted Regression (GNNWR)
 
