@@ -5,11 +5,20 @@
 We aim to develop a time series forecasting model for predicting housing prices in Singapore's HDB
 market using transaction data and geographical information.
 
+### Running the Notebooks
+
+Look out for the serialisation of the notebooks (e.g. 0X where X represents the order it is to be run). 00 to 10 can be found under `src(00-10)` while the rest (11-15) are found in the root directory.
+
 ### Data Cleaning & Processing
 
 `mrt_coordinates_opening_dates.ipynb`
 
 This file scrapes the MRT stations in Singapore through the Wikipedia website as well as their respective coordinates and opening dates. The results are written to the `mrt_stations.csv` file
+
+`school_coordinates.ipynb`
+
+This file scrapes the primary schools in Singapore through the Wikipedia website as well as their respective coordinates from the OneMap API/Site. The results are written to the primary_school_coordinates.csv file in the PointsOfInterest folder
+
 
 `mall_coordinates_opening.ipynb`
 
@@ -59,24 +68,29 @@ Adds the SORA values associated with the HDB transaction record dates.
 
 `pre_modelling.ipynb`
 
+This file deals with processing the data prior to model building, including scaling for numerical features and one-hot encoding for categorical features. It also normalises the `resale_price` and drops relevant columns not needed for model building.
 
 
 ### Model Building
-
-Working dataset: https://drive.google.com/drive/folders/1LEXFn1MAb0m7xJCqPMAyjJMXiA7_Ep6d?usp=drive_link
 
 `xgboost_model.ipynb`
 
 - Train xgboost regressor on working dataset
 - Predict 2024 resale prices and evaluate performance
 
-### Random Forest Regression
+`random_forest.ipynb`
 
 We build 2 Random Forest Regression models using Out-of-bag (OOB) method and 10-fold Cross Validation. Both models are evaluated by minimising Mean Absolute Error (MAE). Their performances across various criteria are compared against each other.
 
-### Geographically Neural Network Weighted Regression (GNNWR)
+`CatBoost.ipynb`
 
-### Long Short Term Memory
+This file utilises the Catboost gradient boosting algorithm to train the cleaned, normalised, and one-hot encoded data from `data_sklearn_models` before testing on the 2024 data. Following training, evaluation and analysis of model performance is conducted.
+
+`gnnwr.ipynb`
+
+This model uses incorporates geospatial features (latitude, longitude) using neural networks. 
+
+`lstm.ipynb`
 
 We first prepare the data for model training by performing necessary preprocessing steps and splitting it into distinct sets for training, validation, and testing purposes. We then train and evaluate the Long Short-Term Memory (LSTM) neural network model.
 
