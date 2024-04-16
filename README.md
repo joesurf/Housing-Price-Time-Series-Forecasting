@@ -75,24 +75,10 @@ Working dataset: https://drive.google.com/drive/folders/1LEXFn1MAb0m7xJCqPMAyjJM
 
 ### Long Short Term Memory
 
-#### Data Preprocessing and Splitting
+We first prepare the data for model training by performing necessary preprocessing steps and splitting it into distinct sets for training, validation, and testing purposes. We then train and evaluate the Long Short-Term Memory (LSTM) neural network model.
 
-We first prepare the data for model training by performing necessary preprocessing steps and splitting it into distinct sets for training, validation, and testing purposes. The process involves:
-
-1. Normalization of Numerical Features: Numerical features in the dataset are normalized to ensure uniform scaling, enhancing model convergence and performance.
-
-2. Splitting the Dataset: The dataset is divided into three subsets:
-   - Training Set: Used to train the model.
-   - Validation Set: Employed to fine-tune model parameters and prevent overfitting.
-   - Test Set: Reserved for final evaluation of model performance.
-3. Conversion to Numpy Arrays: The data is converted into numpy arrays to facilitate efficient model training and compatibility with various machine learning frameworks.
-4. Data Confirmation: Finally, the section concludes by printing the data types and shapes of the training and validation sets, providing a comprehensive overview of the prepared data for further processing.
-
-#### LSTM Model Training
-
-This section delves into the training and evaluation of a Long Short-Term Memory (LSTM) neural network model designed for predictive tasks. The process involves the following steps:
-
-1. Model Construction: The LSTM model is built with three layers, each followed by dropout regularization to mitigate overfitting. This architecture enables the model to capture temporal dependencies effectively.
-2. Compilation: The model is compiled using the Adam optimizer and mean squared error loss function, suitable for regression tasks.
-3. Early Stopping: To prevent overfitting, early stopping is implemented with a patience of 5, monitoring validation loss during training. This mechanism halts training when the model's performance on the validation set starts deteriorating.
-4. Training Process: The model is trained by fitting it to the training data for 100 epochs, utilizing a batch size of 32. Throughout the training process, model performance is evaluated on the validation set to assess its generalization capabilities and prevent overfitting.
+**Properties**:
+- An LSTM model with three layers and dropout regularization is used to capture temporal dependencies.
+- Uses the Adam optimizer and mean squared error loss function for regression tasks.
+- Overfitting is prevented with early stopping, monitoring validation loss with a patience of 5.
+- The model is trained for 100 epochs with a batch size of 32, with performance evaluated on the validation set to prevent overfitting.
