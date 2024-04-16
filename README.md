@@ -70,6 +70,9 @@ Working dataset: https://drive.google.com/drive/folders/1LEXFn1MAb0m7xJCqPMAyjJM
 - Train xgboost regressor on working dataset
 - Predict 2024 resale prices and evaluate performance
 
+### Random Forest Regression
+
+We build 2 Random Forest Regression models using Out-of-bag (OOB) method and 10-fold Cross Validation. Both models are evaluated by minimising Mean Absolute Error (MAE). Their performances across various criteria are compared against each other.
 
 ### Geographically Neural Network Weighted Regression (GNNWR)
 
